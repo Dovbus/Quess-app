@@ -1,0 +1,10 @@
+.answer {
+  text-align: center;
+  margin: 15px;
+  font-size: 30px;
+
+  &__gender::first-letter,
+  &__country::first-letter {
+    text-transform: uppercase;
+  }
+}
